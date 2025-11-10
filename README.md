@@ -35,8 +35,53 @@ The main objective of this project is to clean, transform, and analyze the datas
 - Performed data cleaning using pandas:
    - Removed null values
    - Dropped duplicate rows
-   - Changed incorrect data types (like date and time)
+   - Replaced the $ sign and changed the incorrect data type for `unit_price` column (`object` to `float`)
    - Created two new calculated columns:
         - total_sales = unit_price * quantity
         - profit = total_sales * profit_margin
 - Verified that the data was clean and consistent before loading it into MySQL.
+
+---
+
+### 4. Connecting to MySQL Database
+- Established a successful connection to MySQL using the created SQLAlchemy engine.
+- Loaded the cleaned dataset into a new MySQL table:
+   ```
+   df.to_sql(name='walmart', con=engine_mysql, if_exists='append', index=False)
+- Confirmed the successful data transfer using:
+   ```
+   SELECT * FROM walmart
+   Limit 10;
+
+---
+
+### 5. Business Problem Questions
+
+---
+
+### 🧠 Tools & Technologies Used
+- Excel → For initial data exploration
+- Python (Jupyter Notebook) → For data cleaning and preparation
+- Libraries: pandas, sqlalchemy, urllib.parse
+- MySQL → For database connection and SQL-based analysis
+
+---
+
+### 📊 Key Learnings
+- Establishing database connections securely using SQLAlchemy and URL encoding for passwords with special characters.
+- Cleaning and transforming data effectively using Pandas.
+- Writing and executing complex SQL queries for business insights.
+- Structuring an end-to-end data analysis workflow from raw dataset to actionable insights.
+
+---
+
+### 📁 Project Structure
+```plaintext
+📦 Walmart_Sales_Analysis
+│
+├── walmart_cleaned_dataset.csv     # Cleaned dataset file
+├── walmart_analysis.ipynb          # Jupyter Notebook (data cleaning & MySQL connection)
+├── walmart_queries.sql             # SQL business problem queries
+├── README.md                       # Project documentation (this file)
+└── requirements.txt                # Python libraries used
+```
