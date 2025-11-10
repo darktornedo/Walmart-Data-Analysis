@@ -27,5 +27,9 @@ The main objective of this project is to clean, transform, and analyze the datas
   import pandas as pd
   from sqlalchemy import create_engine
   import urllib.parse
-**Used urllib.parse to handle special characters in the MySQL password while creating the connection string.**
-**Created the SQLAlchemy engine:**
+- Used urllib.parse to handle special characters in the MySQL password while creating the connection string.
+- Created the SQLAlchemy engine:
+   ```
+   password = urllib.parse.quote_plus("Your@MySQL#Password123")
+   engine_mysql = create_engine(f"mysql+pymysql://root:{password}@localhost:3306/walmart_db")
+
