@@ -32,4 +32,11 @@ The main objective of this project is to clean, transform, and analyze the datas
    ```
    password = urllib.parse.quote_plus("Your@MySQL#Password123")
    engine_mysql = create_engine(f"mysql+pymysql://root:{password}@localhost:3306/walmart_db")
-
+- Performed data cleaning using pandas:
+   - Removed null values
+   - Dropped duplicate rows
+   - Changed incorrect data types (like date and time)
+   - Created two new calculated columns:
+        - total_sales = unit_price * quantity
+        - profit = total_sales * profit_margin
+- Verified that the data was clean and consistent before loading it into MySQL.
