@@ -13,13 +13,9 @@ The main objective of this project is to clean, transform, and analyze the datas
 - It contains transactional data of different Walmart branches, including columns such as:
   - `invoice_id`, `branch`, `city`, `category`, `unit_price`, `quantity`, `date`, `time`, `payment_method`, `rating`, `profit_margin`.
 
----
-
 ### 2. Data Exploration in Excel
 - The dataset was first **viewed and explored in Excel** to understand its structure and contents.
 - Checked for missing values, column data types, and overall data consistency.
-
----
 
 ### 3. Data Cleaning & Preparation in Jupyter Notebook
 - Imported required Python libraries:
@@ -41,7 +37,6 @@ The main objective of this project is to clean, transform, and analyze the datas
         - profit = total_sales * profit_margin
 - Verified that the data was clean and consistent before loading it into MySQL.
 
----
 
 ### 4. Connecting to MySQL Database
 - Established a successful connection to MySQL using the created SQLAlchemy engine.
@@ -52,8 +47,8 @@ The main objective of this project is to clean, transform, and analyze the datas
    ```
    SELECT * FROM walmart
    Limit 10;
+   ```
 
----
 
 ### 5. Business Problem Questions
 
@@ -65,7 +60,6 @@ The main objective of this project is to clean, transform, and analyze the datas
 - Libraries: pandas, sqlalchemy, urllib.parse
 - MySQL → For database connection and SQL-based analysis
 
----
 
 ### 📊 Key Learnings
 - Establishing database connections securely using SQLAlchemy and URL encoding for passwords with special characters.
@@ -73,7 +67,6 @@ The main objective of this project is to clean, transform, and analyze the datas
 - Writing and executing complex SQL queries for business insights.
 - Structuring an end-to-end data analysis workflow from raw dataset to actionable insights.
 
----
 
 ### 📁 Project Structure
 ```plaintext
@@ -86,14 +79,10 @@ The main objective of this project is to clean, transform, and analyze the datas
 └── requirements.txt                # Python libraries used
 ```
 
----
-
-
 ### 🧾 Conclusion
 This project demonstrates a complete data analysis pipeline — from raw data extraction to business insights using Excel, Python, and MySQL.
 It highlights the importance of data cleaning, database integration, and SQL querying for real-world business analysis.
 
----
 
 👩‍💻 Author: Kumkum Pal
 📧 Contact: kumkumpal404@gmail.com
