@@ -85,3 +85,15 @@ The main objective of this project is to clean, transform, and analyze the datas
 ├── README.md                       # Project documentation (this file)
 └── requirements.txt                # Python libraries used
 ```
+
+---
+
+
+### 🧾 Conclusion
+This project demonstrates a complete data analysis pipeline — from raw data extraction to business insights using Excel, Python, and MySQL.
+It highlights the importance of data cleaning, database integration, and SQL querying for real-world business analysis.
+
+---
+
+👩‍💻 Author: Kumkum Pal
+📧 Contact: kumkumpal404@gmail.com
