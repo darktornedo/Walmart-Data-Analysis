@@ -51,7 +51,7 @@ The main objective of this project is to clean, transform, and analyze the datas
 
 
 ### 5. Business Problem Questions
-![Business Questions](Walmart Business Problems.pdf)
+![Business Questions](Walmart_business_Problems.pdf)
 
 ---
 
@@ -77,7 +77,7 @@ The main objective of this project is to clean, transform, and analyze the datas
 ├── walmart_cleaned_dataset.csv     # Cleaned dataset file
 ├── walmart_data_cleaning.ipynb     # Jupyter Notebook (data cleaning & MySQL connection)
 ├── walmart_queries.sql             # SQL business problem queries
-├── Walmart Business Problems.pdf   # Business Questions
+├── Walmart business Problems.pdf   # Business Questions
 ├── README.md                       # Project documentation (this file)
 └── 
 ```
