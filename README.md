@@ -124,5 +124,5 @@ It highlights the importance of data cleaning, database integration, and SQL que
 ---
 
 
-### 👩‍💻 Author: Kumkum Pal
+##### 👩‍💻 Author: Kumkum Pal
 **📧 Contact: kumkumpal404@gmail.com**
