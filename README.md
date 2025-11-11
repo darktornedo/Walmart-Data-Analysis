@@ -9,7 +9,7 @@ The main objective of this project is to clean, transform, and analyze the datas
 ## 🗂️ Project Workflow
 
 ### 1. Dataset Source
-- The dataset was **downloaded from Kaggle** ![Walmart Dataset](https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets).
+- The dataset was **downloaded from Kaggle** [Walmart Dataset](https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets).
 - It contains transactional data of different Walmart branches, including columns such as:
   - `invoice_id`, `branch`, `city`, `category`, `unit_price`, `quantity`, `date`, `time`, `payment_method`, `rating`, `profit_margin`.
 
@@ -49,39 +49,42 @@ The main objective of this project is to clean, transform, and analyze the datas
    Limit 10;
    ```
 
+---
+
 
 ### 5. Business Problem Questions
-![Business Questions](Walmart_Business_Problems.pdf)
+[Business Questions](Walmart_Business_Problems.pdf)
 
 ---
 
 ### 📈 Insights & Findings
 
 #### 🏬 Branch & City Insights
-- **Branch WALM003 (San Antonio)** achieved the **highest total sales and profit**.  
-- **Branch WALM048 (Harlingen)** had steady sales but lower profit margins.  
-- Larger cities generally showed **higher transaction volumes**.
+- **Branch WALM009(Plano)** achieved the **highest total sales** but low in profit margin.  
+- **Branch WALM052(Mansfield)** had High Profit margin but low sales.  
+- In cities Weslaco and Waxahachie showed **higher transaction value**.
 
 #### 🛒 Product Category Insights
-- **Electronic Accessories** and **Health & Beauty** were the **top-selling categories**.  
-- **Sports & Travel** had higher prices but lower sales volume.  
-- Categories with higher **profit margins** often received **better ratings**.
+- **Fashion accessories** and **Home and lifestyle** were the **top-selling categories**.  
+- **Sports & Travel** and **Health and beauty** were the **Least-selling categories**.
+- Categories with higher **profit margins** received **lower avg ratings** then other categories.
 
 #### 💳 Payment & Customer Behavior
-- **Ewallet** was the **most preferred payment method**, followed by **Cash** and **Credit Card**.  
-- Ewallet users gave **higher ratings**, showing better satisfaction.  
+- **Credit Card** was the **preferred payment method**, by no of transactions and qty sold.  
+- Ewallet users gave **higher ratings**, showing better satisfaction and preferred in most of the branches.  
 - High-value purchases were mostly done via **Credit Card**.
-
+  
 #### 📅 Time & Trend Insights
-- **Weekends** (especially **Fridays and Saturdays**) had the **highest sales**.  
-- The **Afternoon (12 PM–5 PM)** period showed peak sales activity.  
-- Sales trends showed steady monthly growth.
+- **Weekdays** (especially **Saturdays and Tuesday**) had the **highest sales**.  
+- The **Afternoon (12 PM–4 PM)** period showed peak sales activity.  
+- Tuesday and thursday was the busiest day of the week by no of transactions.
 
 #### 💰 Profitability Insights
 - Medium-sized purchases contributed the most to profit.  
 - **High-rated transactions** had slightly higher profits.  
 - Average **profit margin ranged between 33%–48%** across branches.
 
+---
 
 ### 🧠 Tools & Technologies Used
 - Excel → For initial data exploration
@@ -89,6 +92,7 @@ The main objective of this project is to clean, transform, and analyze the datas
 - Libraries: pandas, sqlalchemy, urllib.parse
 - MySQL → For database connection and SQL-based analysis
 
+---
 
 ### 📊 Key Learnings
 - Establishing database connections securely using SQLAlchemy and URL encoding for passwords with special characters.
@@ -96,6 +100,7 @@ The main objective of this project is to clean, transform, and analyze the datas
 - Writing and executing complex SQL queries for business insights.
 - Structuring an end-to-end data analysis workflow from raw dataset to actionable insights.
 
+---
 
 ### 📁 Project Structure
 ```plaintext
@@ -110,9 +115,13 @@ The main objective of this project is to clean, transform, and analyze the datas
 
 ```
 
+--- 
+
 ### 🧾 Conclusion
 This project demonstrates a complete data analysis pipeline — from raw data extraction to business insights using Excel, Python, and MySQL.
 It highlights the importance of data cleaning, database integration, and SQL querying for real-world business analysis.
+
+---
 
 
 #### 👩‍💻 Author: Kumkum Pal
