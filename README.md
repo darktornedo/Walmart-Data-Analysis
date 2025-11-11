@@ -51,6 +51,7 @@ The main objective of this project is to clean, transform, and analyze the datas
 
 
 ### 5. Business Problem Questions
+![Business Questions](Walmart Business Problems.pdf)
 
 ---
 
@@ -71,12 +72,14 @@ The main objective of this project is to clean, transform, and analyze the datas
 ### 📁 Project Structure
 ```plaintext
 📦 Walmart_Sales_Analysis
-│
+
+├── Walmart.csv                     # Row dataset file
 ├── walmart_cleaned_dataset.csv     # Cleaned dataset file
-├── walmart_analysis.ipynb          # Jupyter Notebook (data cleaning & MySQL connection)
+├── walmart_data_cleaning.ipynb     # Jupyter Notebook (data cleaning & MySQL connection)
 ├── walmart_queries.sql             # SQL business problem queries
+├── Walmart Business Problems.pdf   # Business Questions
 ├── README.md                       # Project documentation (this file)
-└── requirements.txt                # Python libraries used
+└── 
 ```
 
 ### 🧾 Conclusion
@@ -84,5 +87,5 @@ This project demonstrates a complete data analysis pipeline — from raw data ex
 It highlights the importance of data cleaning, database integration, and SQL querying for real-world business analysis.
 
 
-👩‍💻 Author: Kumkum Pal
-📧 Contact: kumkumpal404@gmail.com
+#### 👩‍💻 Author: Kumkum Pal
+**📧 Contact: kumkumpal404@gmail.com**
