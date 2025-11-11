@@ -53,7 +53,7 @@ The main objective of this project is to clean, transform, and analyze the datas
 
 
 ### 5. Business Problem Questions
-[Business Questions](Walmart_Business_Problems.pdf)
+[Business Questions](Walmart_Busniess_Problems.pdf)
 
 ---
 
@@ -124,5 +124,5 @@ It highlights the importance of data cleaning, database integration, and SQL que
 ---
 
 
-#### 👩‍💻 Author: Kumkum Pal
+**👩‍💻 Author: Kumkum Pal**
 **📧 Contact: kumkumpal404@gmail.com**
