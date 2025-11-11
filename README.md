@@ -9,7 +9,7 @@ The main objective of this project is to clean, transform, and analyze the datas
 ## 🗂️ Project Workflow
 
 ### 1. Dataset Source
-- The dataset was **downloaded from Kaggle** (Walmart Sales Dataset).
+- The dataset was **downloaded from Kaggle** ![Walmart Dataset](https://www.kaggle.com/datasets/najir0123/walmart-10k-sales-datasets).
 - It contains transactional data of different Walmart branches, including columns such as:
   - `invoice_id`, `branch`, `city`, `category`, `unit_price`, `quantity`, `date`, `time`, `payment_method`, `rating`, `profit_margin`.
 
@@ -51,9 +51,37 @@ The main objective of this project is to clean, transform, and analyze the datas
 
 
 ### 5. Business Problem Questions
-![Business Questions](Walmart_business_Problems.pdf)
+![Business Questions](Walmart_Business_Problems.pdf)
 
 ---
+
+### 📈 Insights & Findings
+
+#### 🏬 Branch & City Insights
+- **Branch WALM003 (San Antonio)** achieved the **highest total sales and profit**.  
+- **Branch WALM048 (Harlingen)** had steady sales but lower profit margins.  
+- Larger cities generally showed **higher transaction volumes**.
+
+#### 🛒 Product Category Insights
+- **Electronic Accessories** and **Health & Beauty** were the **top-selling categories**.  
+- **Sports & Travel** had higher prices but lower sales volume.  
+- Categories with higher **profit margins** often received **better ratings**.
+
+#### 💳 Payment & Customer Behavior
+- **Ewallet** was the **most preferred payment method**, followed by **Cash** and **Credit Card**.  
+- Ewallet users gave **higher ratings**, showing better satisfaction.  
+- High-value purchases were mostly done via **Credit Card**.
+
+#### 📅 Time & Trend Insights
+- **Weekends** (especially **Fridays and Saturdays**) had the **highest sales**.  
+- The **Afternoon (12 PM–5 PM)** period showed peak sales activity.  
+- Sales trends showed steady monthly growth.
+
+#### 💰 Profitability Insights
+- Medium-sized purchases contributed the most to profit.  
+- **High-rated transactions** had slightly higher profits.  
+- Average **profit margin ranged between 33%–48%** across branches.
+
 
 ### 🧠 Tools & Technologies Used
 - Excel → For initial data exploration
@@ -77,9 +105,9 @@ The main objective of this project is to clean, transform, and analyze the datas
 ├── walmart_cleaned_dataset.csv     # Cleaned dataset file
 ├── walmart_data_cleaning.ipynb     # Jupyter Notebook (data cleaning & MySQL connection)
 ├── walmart_queries.sql             # SQL business problem queries
-├── Walmart business Problems.pdf   # Business Questions
-├── README.md                       # Project documentation (this file)
-└── 
+├── Walmart_Business_Problems.pdf   # Business Questions
+└── README.md                       # Project documentation (this file)
+
 ```
 
 ### 🧾 Conclusion
